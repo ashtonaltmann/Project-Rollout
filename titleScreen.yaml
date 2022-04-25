@@ -1,0 +1,190 @@
+- Image: #Project Rollout Image -Title Screen
+    source: "project-rollout.png"
+    style:
+      position: absolute
+      justify-content: center
+      align-self: center
+      width: 620px
+      height: 400px
+    anim_info:
+      opacity: [1, 0]
+      duration: 500
+      delay: 2500
+
+#Gamemodes text Image -Gamemode Selection Screen
+- Image: 
+    source: "Gamemodes.png"
+    style:
+      top: 30px
+      position: absolute
+      justify-content: center
+      align-self: center
+      width: 321
+      height: 45
+    anim_info:
+      opacity: [0, 1]
+      duration: 125
+      delay: 3000
+- View:
+    style:
+      margin: 120px
+      flex-wrap: wrap
+      flex-direction: row
+      justify-content: center
+      align-self: center
+      backgroundColor: rgba(95, 170, 255, 0)
+    children:
+
+#Gem Grab Button    
+      - Button: 
+          id: nextGG
+          style:
+            width: 158
+            height: 85
+            backgroundColor: rgba(95, 170, 255, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 255)
+          children:
+
+#Gem Grab Image          
+            - Image: 
+                source: "GGbutton.png"
+                style:
+                  width: 158
+                  height: 85
+                anim_info:
+                  opacity: [0, 1]
+                  duration: 500
+                  delay: 3250
+
+#Heist Button                   
+      - Button: 
+          id: nextH
+          style:
+            width: 158
+            height: 85
+            backgroundColor: rgba(95, 170, 255, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 255)
+          children:
+
+#Heist Image          
+            - Image: 
+                source: "Hbutton.png"
+                style:
+                  width: 158
+                  height: 85
+                anim_info:
+                  opacity: [0, 1]
+                  duration: 500
+                  delay: 3500
+
+#Siege Button                   
+      - Button: 
+          id: nextS
+          style:
+            width: 158
+            height: 85
+            backgroundColor: rgba(95, 170, 255, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 255)
+          children:
+
+#Siege Image           
+            - Image: 
+                source: "Sbutton.png"
+                style:
+                  width: 158
+                  height: 85
+                anim_info:
+                  opacity: [0, 1]
+                  duration: 500
+                  delay: 3750
+
+#Knockout Button                  
+      - Button:  
+          id: nextKO
+          style:
+            width: 158
+            height: 85
+            backgroundColor: rgba(95, 170, 255, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 255)
+          children:
+
+#Knockout Image           
+            - Image: 
+                source: "KObutton.png"
+                style:
+                  width: 158
+                  height: 85
+                anim_info:
+                  opacity: [0, 1]
+                  duration: 500
+                  delay: 4000
+
+#Bounty Button                  
+      - Button:  
+          id: nextB
+          style:
+            width: 158
+            height: 85
+            backgroundColor: rgba(95, 170, 255, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 255)
+          children:
+
+#Bounty Image          
+            - Image:  
+                source: "Bbutton.png"
+                style:
+                  width: 158
+                  height: 85
+                anim_info:
+                  opacity: [0, 1]
+                  duration: 500
+                  delay: 4250
+
+#Brawl Ball Button                   
+      - Button: 
+          id: nextBB
+          style:
+            width: 158
+            height: 85
+            backgroundColor: rgba(95, 170, 255, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 255)
+          children:
+
+#Brawl Ball Image          
+            - Image:  
+                source: "BBbutton.png"
+                style:
+                  width: 158
+                  height: 85
+                anim_info:
+                  opacity: [0, 1]
+                  duration: 500
+                  delay: 4500
+
+#Hotzone Button                  
+      - Button: 
+          id: nextHZ
+          style:
+            width: 158
+            height: 85
+            backgroundColor: rgba(95, 170, 255, 0)
+          on_touch:
+            backgroundColor: rgb(255, 255, 255)
+          children:
+
+#Hotzone Image          
+            - Image: 
+                source: "HZbutton.png"
+                style:
+                  width: 158
+                  height: 85
+                anim_info:
+                  opacity: [0, 1]
+                  duration: 500
+                  delay: 4750

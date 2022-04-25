@@ -1,0 +1,7 @@
+                              - View:
+                                  #source: {Char}
+                                  style:
+                                    margin: 5%
+                                    width: 100px
+                                    height: 100px
+                                    backgroundColor: rgb(0, 0, {b})

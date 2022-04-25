@@ -1,0 +1,14 @@
+                              - Button:
+                                  id: Brawler9
+                                  style:
+                                    margin: 5%
+                                    width: 100px
+                                    height: 100px
+                                  children:
+                                    - Image:
+                                        source: {Char}
+                                        style:
+                                          width: 100px
+                                          height: 100px
+                                          backgroundColor: rgb(0, 0, {b})
+

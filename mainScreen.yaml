@@ -1,0 +1,133 @@
+- View:
+    style:
+      backgroundColor: rgb(30, 30, 30)
+      width: 100%
+      height: 100%
+    children:
+      - View:
+          style:
+            display: flex
+            flex-direction: row
+            # left: 0
+            position: absolute
+            height: 100%
+            width: 40%
+          children:
+
+#Selected Map View          
+            - View: 
+                style:
+                  flex: 3
+                  align-items: center
+                  justify-content: center
+                children:
+                  - Image:
+                      source: "1a.png"
+                      style:
+                        width: 408px
+                        height: 660px
+
+#Selected Characters View                        
+            - View: 
+                style:
+                  margin-top: 8%
+                  margin-bottom: 8%
+                  flex: 1
+                  align-items: flex-start
+                  flex-direction: column
+                  backgroundColor: rbg(130, 130, 130)
+                children:
+                  - View:
+                      style:
+                        flex: 4
+                      children:
+
+#Red Team Brawler1                      
+                        - View: 
+                            # source: {Char1}
+                            style:
+                              margin: 5px
+                              backgroundColor: rgba(240, 20, 20, 0.2)
+                              width: 88px
+                              flex: 1
+
+#Red Team Brawler2                              
+                        - View: 
+                            # source: {Char2}
+                            style:
+                              margin: 5px
+                              backgroundColor: rgba(190, 10, 10, 0.2)
+                              width: 88px
+                              flex: 1
+
+#Red Team Brawler3                              
+                        - View: 
+                            # source: {Char3}
+                            style:
+                              margin: 5px
+                              backgroundColor: rgba(140, 0, 0, 0.2)
+                              width: 88px
+                              flex: 1
+                  - View:
+                      style:
+                        width: 100px
+                        height: 100px
+                        flex: 1
+                  - View:
+                      style:
+                        flex: 4
+                        flex-direction: column
+                        justify-content: flex-end
+                      children:
+
+#Blue Team Brawler1                      
+                        - View: 
+                            # source: {Char4}
+                            style:
+                              margin: 5px
+                              width: 88px
+                              backgroundColor: rgba(0, 90, 140, 0.2)
+                              flex: 1
+
+#Blue Team Brawler2                              
+                        - View: 
+                            # source: {Char5}
+                            style:
+                              margin: 5px
+                              width: 88px
+                              backgroundColor: rgba(10, 140, 190, 0.2)
+                              flex: 1
+
+#Blue Team Brawler3                              
+                        - View: 
+                            # source: {Char6}
+                            style:
+                              margin: 5px
+                              width: 88px
+                              backgroundColor: rgba(20, 190, 240, 0.2)
+                              flex: 1
+      - View:
+          style:
+            display: flex
+            right: 0
+            position: absolute
+            flex-direction: row-reverse
+            height: 100%
+            width: 50%
+          children:
+            - View:
+                style:
+                  flex: 3
+                  width: 500px
+                children:
+
+#Character Selection View                
+                  - ScrollView: 
+                      children:
+                        - View:
+                            style:
+                              align-items: flex-start
+                              flex-direction: row
+                              flex-wrap: wrap
+                              justify-content: flex-start
+                            children:

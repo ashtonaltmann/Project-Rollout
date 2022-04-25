@@ -1,0 +1,9 @@
+- Image: #Intro Page Image
+    source: "Project Rollout.png"
+    style:
+      width: 620px
+      height: 400px
+    anim_info:
+      opacity: [1, 0]
+      duration: 500
+      delay: 2500

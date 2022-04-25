@@ -1,0 +1,30 @@
+            - View: # Star Power + Gadget selection view
+                style:
+                  backgroundColor: rgba(0, 0, 250, 0.15)
+                  flex: 2
+                  margin-top: 8%
+                  flex-direction: column
+                  justify-content: flex-start
+                  align-items: center
+                children:
+                  - Image:
+                      source: {Brawler}
+                      style:
+                        width: 200px
+                        height: 200px
+                  - Image:
+                      source: "Gbutton.png"
+                      style:
+                        position: absolute
+                        left: 15%
+                        top: 150px
+                        width: 75px
+                        height: 75px
+                  - Image:
+                      source: "SPbutton.png"
+                      style:
+                        position: absolute
+                        right: 15%
+                        top: 150px
+                        width: 75px
+                        height: 75px

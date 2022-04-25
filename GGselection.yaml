@@ -1,0 +1,157 @@
+- View:
+    style:
+      display: flex
+      width: 100%
+      height: 100%
+    children:
+      - View:
+          style:
+            flex: 1
+            align-items: center
+            justify-content: center
+            backgroundColor: rgb({r}, {g}, {b})
+          children:
+            - Image:
+                source: {header}
+                style:
+                  width: 633px
+                  height: 113px
+      - View:
+          style:
+            flex: 4
+          children:
+
+
+#Map Scrollview -Map Selection screen
+            - ScrollView:
+                style:
+                  align-items: center
+                  flex-direction: row
+                  justify-content: flex-start
+                  backgroundColor: rgb(30, 30, 30)
+                extra_props:
+                  horizontal: true
+                children:
+                  - Button:
+                      id: nextMain
+                      style:
+                        width: 252
+                        height: 408
+                        margin-left: 4%
+                        backgroundColor: rgba(95, 170, 255, 0)
+                      children:
+
+#Map Image 1
+                        - Image:
+                            source: "1a.png"
+                            style:
+                              width: 252px
+                              height: 408px
+
+#Map Image 2                              
+                  - Image:
+                      source: "1b.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 3                        
+                  - Image:
+                      source: "1c.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 4                        
+                  - Image:
+                      source: "1d.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 5                        
+                  - Image:
+                      source: "1e.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 6                        
+                  - Image:
+                      source: "1f.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 7                        
+                  - Image:
+                      source: "1g.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 8                        
+                  - Image:
+                      source: "1h.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 9                        
+                  - Image:
+                      source: "1i.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 10                        
+                  - Image:
+                      source: "1j.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 11                        
+                  - Image:
+                      source: "1k.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 12                        
+                  - Image:
+                      source: "1l.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 13                        
+                  - Image:
+                      source: "1m.png"
+                      style:
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+
+#Map Image 14                        
+                  - Image:
+                      source: "1n.png"
+                      style:
+                        justify-self: flex-end
+                        margin-left: 2%
+                        width: 252px
+                        height: 408px
+                  - View:
+                      style:
+                        width: 4%
